@@ -20,6 +20,11 @@ def before_request():
    return redirect('/login')
 
 
+@app.errorhandler(401)
+def unauthorized_error_handle(error):
+    return render_template('401.html'), 401
+
+
 @app.route('/', methods=['get'])
 def site_root():
     return redirect("/menu")

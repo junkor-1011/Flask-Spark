@@ -1,0 +1,6 @@
+tmp*
+*key
+*crt
+__pycache__*
+.idea*
+.spyproject*

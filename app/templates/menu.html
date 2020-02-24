@@ -4,23 +4,33 @@
 
 {% block content %}
 
-<div class="container-fluid">
+<div class="container-fluid h-100">
     <div class="row h-100">
-        <div>
+        <div class="col-4 h-10">
             Hello, World!
         </div>
-        <div class="w-100"></div>
+        <div class="col-8 h-10"></div>
+        <!--
+        <div class="w-100 h-0"></div>
+        -->
         <div class="col-3">
             <a href="{{url_for('leaflet_test1')}}">leaflet_test1</a>
         </div>
-        <div class="w-100"></div>
+        <div class="col-9"></div>
+        <!--
+        <div class="w-100 h-5"></div>
+        -->
         <div class="col-3">
             <a href="{{url_for('table_test1')}}">table_test1</a>
         </div>
-        <div class="w-100"></div>
+        <div class="col-9"></div>
+        <!--
+        <div class="w-100 h-5"></div>
+        -->
         <div class="col-3">
             <a href="{{url_for('graph_test1')}}">graph_test1</a>
         </div>
+        <div class="col-9"></div>
     </div>
 </div>
 

@@ -3,6 +3,8 @@ import json, io, datetime, codecs, os, random
 from flask import Flask, render_template, request, jsonify, make_response,\
     send_file, session, abort, flash, url_for, redirect
 
+from SparkDriver import SparkDriver     # TMP   本当は処理用の別コードを用意し、その応答だけを受け取る
+
 app = Flask(__name__)
 
 app.secret_key = "secret key"               # TMP
@@ -80,6 +82,22 @@ def table_test1():
 def graph_test1():
     title = "Graph Test1"
     return render_template('graph_test1.html', title=title)
+
+
+@app.route('/post_utils/read_spark_table_tmp', methods=['POST'])
+def read_spark_table_tmp():
+    sd = SparkDriver()
+    spark = sd.spark
+    table = request.form['table']
+    limit = request.form['limit']
+    df = spark.sql(f"""
+        SELECT * FROM {table} LIMIT {limit}
+""")
+    df.cache()
+    df.show(limit)  # TMP
+    pdf = df.toPandas()
+    return pdf.to_html()
+
 
 
 def _is_account_valid():    # TMP

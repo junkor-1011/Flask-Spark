@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import json, io, datetime, codecs, os, random
 
 from flask import Flask, render_template, request, jsonify, make_response,\
@@ -94,8 +95,9 @@ def read_spark_table_tmp():
         SELECT * FROM {table} LIMIT {limit}
 """)
     df.cache()
-    df.show(limit)  # TMP
+    #df.show(limit)  # TMP  # py4j.protocol.Py4JError: An error occurred while calling o86.showString. が出る（他にも意図しない挙動が起きていないかチェックする必要）
     pdf = df.toPandas()
+    spark.sparkContext.stop()
     return pdf.to_html()
 
 

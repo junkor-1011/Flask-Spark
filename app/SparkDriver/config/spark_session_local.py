@@ -14,7 +14,7 @@ conf_list = [    # TMP
         ["spark.memory.offHeap.enabled", "true"],
         ["spark.memory.offHeap.size", "4096"],
         ["spark.driver.memory", "2g"],
-        ["spark.executor.memory", "4g"],
+        ["spark.executor.memory", "6g"],
         #["spark.eventLog.enabled", "true"],
         ["spark.serializer", "org.apache.spark.serializer.KryoSerializer"],
         ["spark.sql.warehouse.dir", SPARK_WAREHOUSE_HOME],

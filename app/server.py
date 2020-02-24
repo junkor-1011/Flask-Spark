@@ -64,6 +64,24 @@ def menu():
     return render_template('menu.html', title=title)
 
 
+@app.route('/leaflet_test1', methods=['GET'])
+def leaflet_test1():
+    title = "Leaflet Test1"
+    return render_template('leaflet_test1.html', title=title)
+
+
+@app.route('/table_test1', methods=['GET'])
+def table_test1():
+    title = "Table Test1"
+    return render_template('table_test1.html', title=title)
+
+
+@app.route('/graph_test1', methods=['GET'])
+def graph_test1():
+    title = "Graph Test1"
+    return render_template('graph_test1.html', title=title)
+
+
 def _is_account_valid():    # TMP
     uid = request.form.get('uid')
     pwd = request.form.get('pwd')

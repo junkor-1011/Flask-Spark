@@ -94,10 +94,9 @@ def read_spark_table_tmp():
     df = spark.sql(f"""
         SELECT * FROM {table} LIMIT {limit}
 """)
-    df.cache()
+    #df.cache()
     #df.show(limit)  # TMP  # py4j.protocol.Py4JError: An error occurred while calling o86.showString. が出る（他にも意図しない挙動が起きていないかチェックする必要）
     pdf = df.toPandas()
-    spark.sparkContext.stop()
     return pdf.to_html()
 
 

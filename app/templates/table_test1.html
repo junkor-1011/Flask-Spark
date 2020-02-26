@@ -32,9 +32,9 @@
                 </script>
                 -->
         </div>
-        <div class="col-12 h-50 scroll">
+        <div class="col-12 h-50 scroll"> <!-- ISSUE: 固定枠の中でスクロール、といった形になっていない課題 -->
             <div class="row h-100">
-                <div id="table" class="col-10 h-100"></div>
+                <div id="table" class="col-10 h-100"></div> <!-- div自体は正しいサイズで生成されているが、tableがはみ出る(divのスクロールでは無く、ページ全体のスクロールになってしまう) -->
             </div>
             <script>
                     $('#button1').on('click', function(){

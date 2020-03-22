@@ -1,0 +1,19 @@
+\indexentry{test\_lib.a.mod1 (module)@\spxentry{test\_lib.a.mod1}\spxextra{module}|hyperpage}{1}
+\indexentry{func1() (in module test\_lib.a.mod1)@\spxentry{func1()}\spxextra{in module test\_lib.a.mod1}|hyperpage}{1}
+\indexentry{func2() (in module test\_lib.a.mod1)@\spxentry{func2()}\spxextra{in module test\_lib.a.mod1}|hyperpage}{1}
+\indexentry{test\_lib.a.mod2 (module)@\spxentry{test\_lib.a.mod2}\spxextra{module}|hyperpage}{2}
+\indexentry{func() (in module test\_lib.a.mod2)@\spxentry{func()}\spxextra{in module test\_lib.a.mod2}|hyperpage}{2}
+\indexentry{test\_lib.a (module)@\spxentry{test\_lib.a}\spxextra{module}|hyperpage}{2}
+\indexentry{test\_lib.b.mod3 (module)@\spxentry{test\_lib.b.mod3}\spxextra{module}|hyperpage}{2}
+\indexentry{func\_dummy() (in module test\_lib.b.mod3)@\spxentry{func\_dummy()}\spxextra{in module test\_lib.b.mod3}|hyperpage}{2}
+\indexentry{test\_lib.b (module)@\spxentry{test\_lib.b}\spxextra{module}|hyperpage}{3}
+\indexentry{test\_lib.TestClass (module)@\spxentry{test\_lib.TestClass}\spxextra{module}|hyperpage}{3}
+\indexentry{TestClass (class in test\_lib.TestClass)@\spxentry{TestClass}\spxextra{class in test\_lib.TestClass}|hyperpage}{3}
+\indexentry{attr1 (test\_lib.TestClass.TestClass attribute)@\spxentry{attr1}\spxextra{test\_lib.TestClass.TestClass attribute}|hyperpage}{3}
+\indexentry{attr2 (test\_lib.TestClass.TestClass attribute)@\spxentry{attr2}\spxextra{test\_lib.TestClass.TestClass attribute}|hyperpage}{3}
+\indexentry{msg (test\_lib.TestClass.TestClass attribute)@\spxentry{msg}\spxextra{test\_lib.TestClass.TestClass attribute}|hyperpage}{3}
+\indexentry{code (test\_lib.TestClass.TestClass attribute)@\spxentry{code}\spxextra{test\_lib.TestClass.TestClass attribute}|hyperpage}{3}
+\indexentry{attr1 (test\_lib.TestClass.TestClass attribute)@\spxentry{attr1}\spxextra{test\_lib.TestClass.TestClass attribute}|hyperpage}{4}
+\indexentry{attr2 (test\_lib.TestClass.TestClass attribute)@\spxentry{attr2}\spxextra{test\_lib.TestClass.TestClass attribute}|hyperpage}{4}
+\indexentry{method1() (test\_lib.TestClass.TestClass method)@\spxentry{method1()}\spxextra{test\_lib.TestClass.TestClass method}|hyperpage}{4}
+\indexentry{test\_lib (module)@\spxentry{test\_lib}\spxextra{module}|hyperpage}{4}

@@ -1,6 +1,9 @@
 """
 module document.
 
+- 日本語テスト
+    - にほんごもpdfに出来るとうれしい
+
 Note:
     it's note.
 

@@ -51,6 +51,13 @@ language = 'jp'
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 
+# latex
+latex_engine = "platex"
+#platex_engine = "platex"
+latex_docclass = {'manual': 'jsbook'}
+#latex_docclass = {'manual': 'jsarticle'}
+latex_show_pagerefs = True
+
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for

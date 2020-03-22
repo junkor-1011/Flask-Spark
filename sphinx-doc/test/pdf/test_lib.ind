@@ -1,0 +1,40 @@
+\begin{sphinxtheindex}
+\let\bigletter\sphinxstyleindexlettergroup
+\let\spxpagem \sphinxstyleindexpagemain
+\let\spxentry \sphinxstyleindexentry
+\let\spxextra \sphinxstyleindexextra
+
+
+  \item \spxentry{attr1}\spxextra{test\_lib.TestClass.TestClass attribute}, \hyperpage{3}, 
+		\hyperpage{4}
+  \item \spxentry{attr2}\spxextra{test\_lib.TestClass.TestClass attribute}, \hyperpage{3}, 
+		\hyperpage{4}
+
+  \indexspace
+
+  \item \spxentry{code}\spxextra{test\_lib.TestClass.TestClass attribute}, \hyperpage{3}
+
+  \indexspace
+
+  \item \spxentry{func()}\spxextra{in module test\_lib.a.mod2}, \hyperpage{2}
+  \item \spxentry{func\_dummy()}\spxextra{in module test\_lib.b.mod3}, \hyperpage{2}
+  \item \spxentry{func1()}\spxextra{in module test\_lib.a.mod1}, \hyperpage{1}
+  \item \spxentry{func2()}\spxextra{in module test\_lib.a.mod1}, \hyperpage{1}
+
+  \indexspace
+
+  \item \spxentry{method1()}\spxextra{test\_lib.TestClass.TestClass method}, \hyperpage{4}
+  \item \spxentry{msg}\spxextra{test\_lib.TestClass.TestClass attribute}, \hyperpage{3}
+
+  \indexspace
+
+  \item \spxentry{test\_lib}\spxextra{module}, \hyperpage{4}
+  \item \spxentry{test\_lib.a}\spxextra{module}, \hyperpage{2}
+  \item \spxentry{test\_lib.a.mod1}\spxextra{module}, \hyperpage{1}
+  \item \spxentry{test\_lib.a.mod2}\spxextra{module}, \hyperpage{2}
+  \item \spxentry{test\_lib.b}\spxextra{module}, \hyperpage{3}
+  \item \spxentry{test\_lib.b.mod3}\spxextra{module}, \hyperpage{2}
+  \item \spxentry{test\_lib.TestClass}\spxextra{module}, \hyperpage{3}
+  \item \spxentry{TestClass}\spxextra{class in test\_lib.TestClass}, \hyperpage{3}
+
+\end{sphinxtheindex}

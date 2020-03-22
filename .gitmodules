@@ -1,0 +1,3 @@
+[submodule "html_doc_viewer"]
+	path = html_doc_viewer
+	url = https://github.com/junkor-1011/html_doc_viewer.git
